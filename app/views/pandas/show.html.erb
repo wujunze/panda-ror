@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @panda.name %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @panda.city %>
+</p>
+
+<%= link_to 'Edit', edit_panda_path(@panda) %> |
+<%= link_to 'Back', pandas_path %>

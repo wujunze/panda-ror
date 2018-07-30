@@ -1,0 +1,2 @@
+class Panda < ApplicationRecord
+end
